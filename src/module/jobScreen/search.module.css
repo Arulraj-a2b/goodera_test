@@ -1,0 +1,32 @@
+.overAll {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 22px;
+  align-self: center;
+  margin-top: 140px;
+  width: 100%;
+}
+.svgSearch {
+  position: absolute;
+}
+.inputStyle {
+  border: none;
+  width: 202px;
+  padding-left: 40px;
+}
+.inputStyle::placeholder {
+  font-size: 16px;
+  color: #7b7b7b;
+}
+.svgBook {
+  padding-right: 16px;
+}
+.searchBtn {
+  width: 280;
+  height: 60;
+  font-size: 24;
+}
+.selectTag {
+  width: 333px;
+  padding-right: 54px;
+}
