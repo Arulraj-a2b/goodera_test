@@ -5,6 +5,7 @@
   align-self: center;
   margin-top: 140px;
   width: 100%;
+  width: auto;
 }
 .svgSearch {
   position: absolute;
@@ -22,9 +23,9 @@
   padding-right: 16px;
 }
 .searchBtn {
-  width: 280;
-  height: 60;
-  font-size: 24;
+  width: 280px;
+  height: 60px;
+  font-size: 24px;
 }
 .selectTag {
   width: 333px;

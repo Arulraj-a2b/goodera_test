@@ -28,18 +28,19 @@ const Seacrh = () => {
         <Flex row center className={styles.selectTag}>
           <SvgBook className={styles.svgBook} />
           <Flex row center between style={{ width: "100%" }}>
-            <Text
-              size={16}
-              color="gray"
-              className={`fontWight400,${cx("searchBtn")}`}
-            >
+            <Text size={16} color="gray" className={`fontWight400`}>
               Select location
             </Text>
             <SvgDowm />
           </Flex>
         </Flex>
 
-        <Button className={`fontWight600,${cx("searchBtn")}`}>Search</Button>
+        <Button
+          className={`fontWight600`}
+          style={{ width: 280, height: 60, fontSize: 24 }}
+        >
+          Search
+        </Button>
       </Flex>
     </Flex>
   );
