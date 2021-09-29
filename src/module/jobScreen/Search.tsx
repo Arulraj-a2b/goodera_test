@@ -27,7 +27,7 @@ const Seacrh = () => {
       <Flex row center>
         <Flex row center className={styles.selectTag}>
           <SvgBook className={styles.svgBook} />
-          <Flex row center between style={{ width: "100%" }}>
+          <Flex row center between className={styles.width100}>
             <Text size={16} color="gray" className={`fontWight400`}>
               Select location
             </Text>
@@ -36,8 +36,7 @@ const Seacrh = () => {
         </Flex>
 
         <Button
-          className={`fontWight600`}
-          style={{ width: 280, height: 60, fontSize: 24 }}
+          className={`fontWight600 ${cx('searchBtn')}`}
         >
           Search
         </Button>

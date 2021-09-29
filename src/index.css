@@ -30,3 +30,6 @@ code {
 div input{
   outline: none;
 }
+.pointer{
+  cursor: pointer;
+}

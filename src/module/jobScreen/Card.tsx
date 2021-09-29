@@ -19,7 +19,7 @@ const Card = () => {
             <Flex row>
               <div className={styles.boxStyle} />
               <Flex>
-                <Text size={24} style={{ fontWeight: 500 }}>
+                <Text size={24} className='fontWight500' style={{ paddingBottom: 4}}>
                   {list.title}
                 </Text>
                 <Text size={14} color="gray" className={`fontWight500`}>

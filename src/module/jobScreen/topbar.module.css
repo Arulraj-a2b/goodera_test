@@ -15,6 +15,7 @@
 }
 .post_text {
   padding-right: 16px;
+  cursor: pointer;
 }
 .jobhunt_text {
   padding-left: 7px;

@@ -12,20 +12,20 @@ const Topbar = () => {
     <Flex className={cx("overAll")}>
       <Flex between row>
         <Flex row center className={cx("job_hunt_conatiner")}>
-          <Flex row center>
+          <Flex row center className={'pointer'}>
             <SvgBag />
             <Text size={18} color="white" className={styles.jobhunt_text}>
               JobHunt
             </Text>
           </Flex>
-          <Flex center>
+          <Flex center className={'pointer'}>
             <Text size={14} color="white" className={styles.find_job_text}>
               Find Jobs
             </Text>
             <SvgLine />
           </Flex>
 
-          <Text size={14} color="white" className={"fontWight400"}>
+          <Text size={14} color="white" className={"fontWight400 pointer"}>
             Upskill Yourself
           </Text>
         </Flex>
@@ -37,7 +37,7 @@ const Topbar = () => {
           >
             Post a Job
           </Text>
-          <Text size={14} color="white" className={"fontWight500"}>
+          <Text size={14} color="white" className={"fontWight500 pointer"}>
             Sign in
           </Text>
         </Flex>
@@ -46,7 +46,7 @@ const Topbar = () => {
         <Text size={48} color={"white"} className="fontWight800">
           Find Your Dream Job
         </Text>
-        <Text size={20} color="white" className="fontWight400">
+        <Text size={20} color="white" className="fontWight400 ">
           Browse through thousands of full-time or part-time jobs near you
         </Text>
       </Flex>

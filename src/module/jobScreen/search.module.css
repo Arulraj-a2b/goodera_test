@@ -9,6 +9,7 @@
 }
 .svgSearch {
   position: absolute;
+  cursor: pointer;
 }
 .inputStyle {
   border: none;
@@ -30,4 +31,8 @@
 .selectTag {
   width: 333px;
   padding-right: 54px;
+  cursor: pointer;
+}
+.width100 {
+  width: 100%;
 }
